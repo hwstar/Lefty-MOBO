@@ -1,6 +1,8 @@
 # Lefty-MOBO
 Lefty Double Conversion Transceiver Motherboard
 
+![Alt text](https://github.com/hwstar/Lefty-MOBO/Picture.jpg)
+
 This is an HF Motherboard consisting of the entire signal chain from RF in to Speaker, and from Microphone to RF out.  A double conversion topology was chosen to allow the motherboard to operate on all HF bands with minimal intermodulation products close to the operating frequency.
 
 The design uses 5 AS169-73 Skyworks RF switches,  3 Mini Circuits ADE-1 mixers, a pair 45.1 MHz matched Golledge 15 KHz BW IF filters, 6 matched 12.288 MHz crystals for the second IF SSB filter, and 3 2SC3357 low noise RF transistors in the 45.1 MHz "transverter" section. The speaker amplifier is an LM380.
