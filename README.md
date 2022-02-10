@@ -1,7 +1,7 @@
 # Lefty-MOBO
 Lefty Double Conversion Transceiver Motherboard
 
-![Alt text](https://github.com/hwstar/Lefty-MOBO/Picture.jpg)
+![Alt text](Picture.jpg)
 
 This is an HF Motherboard consisting of the entire signal chain from RF in to Speaker, and from Microphone to RF out.  A double conversion topology was chosen to allow the motherboard to operate on all HF bands with minimal intermodulation products close to the operating frequency.
 
