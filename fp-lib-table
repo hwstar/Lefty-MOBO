@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name mods)(type KiCad)(uri /home/srodgers/projects/kicad/mods.pretty)(options "")(descr ""))
+  (lib (name Potentiometer_THT)(type KiCad)(uri /usr/share/kicad/modules/Potentiometer_THT.pretty)(options "")(descr ""))
+)

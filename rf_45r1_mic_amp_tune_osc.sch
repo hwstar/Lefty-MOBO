@@ -1,0 +1,160 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 23
+Title ""
+Date ""
+Rev "X1"
+Comp "WA6ZFT"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1150 950  0    50   UnSpc ~ 0
+P13V8
+Text HLabel 9600 1200 2    50   UnSpc ~ 0
+P5V0
+Text HLabel 1150 600  0    50   UnSpc ~ 0
+PTT_3V3
+Text HLabel 9600 1450 2    50   UnSpc ~ 0
+P13V8_TX
+Text HLabel 9600 1700 2    50   UnSpc ~ 0
+P13V8_RX
+Text HLabel 1150 800  0    50   UnSpc ~ 0
+PTT_3V3_N
+Text HLabel 9600 2200 2    50   UnSpc ~ 0
+TRX_RF
+Text HLabel 1500 4100 0    50   UnSpc ~ 0
+TX_IF_IN_45R1
+Text HLabel 1500 4800 0    50   UnSpc ~ 0
+ENA_TUNE_OSC_3V3
+Text HLabel 1500 4500 0    50   UnSpc ~ 0
+TX_AUDIO_IN
+$Sheet
+S 2050 1550 950  3400
+U 61D4CB11
+F0 "if_45r1_mic_amp_tune_osc" 50
+F1 "if_45r1_mic_amp_tune_osc.sch" 50
+F2 "P13V8" U L 2050 1700 50 
+F3 "P5V0" U R 3000 1700 50 
+F4 "PTT_3V3" U L 2050 1900 50 
+F5 "TX_AUDIO_IN" U L 2050 4500 50 
+F6 "ENA_TUNE_OSC_3V3" U L 2050 4800 50 
+F7 "P13V8_TX" U R 3000 1900 50 
+F8 "P13V8_RX" U R 3000 2100 50 
+F9 "RX_IF_OUT_45R1" U R 3000 2500 50 
+F10 "PTT_3V3_N" U L 2050 2100 50 
+F11 "TX_IF_IN_45R1" U L 2050 4100 50 
+F12 "TRX_IF_45R1" U R 3000 2800 50 
+$EndSheet
+Wire Wire Line
+	9600 1200 3500 1200
+Wire Wire Line
+	3500 1200 3500 1700
+Wire Wire Line
+	3500 1700 3000 1700
+Wire Wire Line
+	9600 1450 4800 1450
+Wire Wire Line
+	3650 1450 3650 1900
+Wire Wire Line
+	3650 1900 3000 1900
+Wire Wire Line
+	3800 1700 3800 2100
+Wire Wire Line
+	3800 2100 3000 2100
+Wire Wire Line
+	3000 2500 4050 2500
+Wire Wire Line
+	4050 2500 4050 1950
+Wire Wire Line
+	1150 950  1400 950 
+Wire Wire Line
+	1400 950  1400 1700
+Wire Wire Line
+	1400 1700 2050 1700
+Wire Wire Line
+	2050 1900 1800 1900
+Wire Wire Line
+	1800 1900 1800 600 
+Wire Wire Line
+	1800 600  1150 600 
+Wire Wire Line
+	2050 2100 1600 2100
+Wire Wire Line
+	1600 2100 1600 800 
+Wire Wire Line
+	1600 800  1150 800 
+Wire Wire Line
+	1500 4100 2050 4100
+Wire Wire Line
+	1500 4500 2050 4500
+Wire Wire Line
+	1500 4800 2050 4800
+Text HLabel 1500 5300 0    50   UnSpc ~ 0
+LO_THIRD
+$Sheet
+S 5500 3050 1550 2400
+U 61CB4AF7
+F0 "transverter" 50
+F1 "transverter.sch" 50
+F2 "LO_THIRD" U L 5500 5300 50 
+F3 "TRX_IF_45R1" U R 7050 3300 50 
+F4 "TRX_RF" U R 7050 3550 50 
+F5 "PTT_3V3_N" U L 5500 5000 50 
+F6 "PTT_3V3" U L 5500 4750 50 
+F7 "P13V8_TX" U L 5500 4500 50 
+F8 "P13V8_RX" U L 5500 4250 50 
+$EndSheet
+Wire Wire Line
+	5500 5300 1500 5300
+Wire Wire Line
+	7250 2800 7250 3300
+Wire Wire Line
+	7250 3300 7050 3300
+Wire Wire Line
+	3000 2800 7250 2800
+Wire Wire Line
+	9600 2200 7500 2200
+Wire Wire Line
+	7500 2200 7500 3550
+Wire Wire Line
+	7500 3550 7050 3550
+Wire Wire Line
+	1600 800  4300 800 
+Wire Wire Line
+	4300 800  4300 5000
+Wire Wire Line
+	4300 5000 5500 5000
+Connection ~ 1600 800 
+Wire Wire Line
+	1800 600  4550 600 
+Wire Wire Line
+	4550 600  4550 4750
+Wire Wire Line
+	4550 4750 5500 4750
+Connection ~ 1800 600 
+Wire Wire Line
+	5500 4500 4800 4500
+Wire Wire Line
+	5500 4250 5050 4250
+Text HLabel 9600 1950 2    50   UnSpc ~ 0
+RX_IF_OUT_45R1
+Wire Wire Line
+	4050 1950 9600 1950
+Wire Wire Line
+	3800 1700 5050 1700
+Wire Wire Line
+	5050 4250 5050 1700
+Connection ~ 5050 1700
+Wire Wire Line
+	5050 1700 9600 1700
+Wire Wire Line
+	4800 4500 4800 1450
+Connection ~ 4800 1450
+Wire Wire Line
+	4800 1450 3650 1450
+$EndSCHEMATC
