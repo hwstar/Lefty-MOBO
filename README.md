@@ -26,6 +26,12 @@ The I2C interface allows control AS169-73 RF switches, PTT, Rx Audio Mute circui
 
 Items currently not used/untested: There is an I2C EEPROM on the board to facilitate storing gain and crystal filter calibration constants, and a DAC which will be used to control the 12.288 MHz IF amplifier's gain in TX to help flatten out the TX power across all bands. In the current design the zero ohm jumper (R917) to the DAC is removed, and a 20K pot is installed at R918. To enable this feature, I need to write some firmware to allow the DAC to be adjusted for each band.
 
+The BOM files are in .csv format and are included in the top level directory. There is a combined BOM, separate top and bottom SMT BOM's, and a PTH BOM.
+
+The gerber files are in the directory TRX_MB_C2_X1
+
+
+
 
 
 
