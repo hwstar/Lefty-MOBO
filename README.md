@@ -11,7 +11,7 @@ This design was inspired from W7ZOI's single conversion "Lichen" Transceiver ori
 
 Please note that this is not a complete Transceiver system. The transceiver board will additionally require a 3 output VFO (My implementation uses one SI5351, and may use 2 of them in the future so that I can drive all the Mixers at 8mA) ,  external bandpass filter bank, an RF power amplifier, and a TX low pass filter bank.
 
-Mixer 1 (U801) serves an downconverter in RX mode, and a balanced moduluator TX mode. This converts the 45.1 MHz first IF to 12.288 MHz second IF. In TX mode, the VFO provides the carrier frequency (which depends on the characteristics of the crystal filter)
+Mixer 1 (U801) serves as a downconverter in RX mode, and a balanced modulator TX mode. This converts the 45.1 MHz first IF to 12.288 MHz second IF. In TX mode, the VFO provides the carrier frequency (which depends on the characteristics of the crystal filter)
 
 Mixer 2 (U1301) serves as the product detector in RX mode, and a 12.288 MHz upconverter in TX mode.
 
