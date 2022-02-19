@@ -26,9 +26,9 @@ After Mixer3 there is a stage of TX RF amplification using a 2SC3357 to bring up
 All control to the Lefty Motherboard is done over I2C using an NXP PCA9554 at 7 bit address 0x38. This allows the wiring from the Motherboard to be minimal. 
 The I2C interface allows control AS169-73 RF switches, PTT, Rx Audio Mute circuit, AGC on/off, and the TX tune audio oscillator. The SCL and SDA pins at the connector operate at 3.3V and are intended to be used with newer 3.3V microcontrollers available such as the STM32 "black pill".
 
-Items currently not used/untested: There is an I2C EEPROM on the board to facilitate storing gain and crystal filter calibration constants, and a DAC which will be used to control the 12.288 MHz IF amplifier's gain in TX to help flatten out the TX power across all bands. In the current design the zero ohm jumper (R917) to the DAC is removed, and a 20K pot is installed at R918. To enable this feature, I need to write some firmware to allow the DAC to be adjusted for each band.
+There is an I2C EEPROM on the board to facilitate storing the TX gain values for each band, and crystal filter 6dB points and bandwidth, and a DAC which is used to control the 12.288 MHz IF amplifier's gain in TX to help flatten out the TX power across all bands. TX gain may also be set manually by removing the DAC and and installing a 20K pot at R918. 
 
-The BOM files are in .csv format and are included in the top level directory. There is a combined BOM, separate top and bottom SMT BOM's, and a PTH BOM.
+The PCB design was done with KiCAD 5.0. The BOM files are in .csv format and are included in the top level directory. There is a combined BOM, separate top and bottom SMT BOM's, and a PTH BOM.
 
 The gerber files are in the directory TRX_MB_C2_X1
 
