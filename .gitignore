@@ -23,4 +23,5 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-
+# Backup directory
+trx_mobo_concept_2-backups/
