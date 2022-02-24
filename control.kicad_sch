@@ -1505,7 +1505,7 @@
     (uuid 00000000-0000-0000-0000-00006102d069)
     (property "Reference" "VR1601" (id 0) (at 64.77 29.21 0))
     (property "Value" "NCP1117-5.0_SOT223" (id 1) (at 64.77 31.75 0))
-    (property "Footprint" "SOT223" (id 2) (at 64.77 34.29 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (id 2) (at 64.77 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" (id 3) (at 59.69 27.94 0)

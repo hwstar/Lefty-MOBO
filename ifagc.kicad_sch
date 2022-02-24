@@ -1143,7 +1143,6 @@
     )
   )
 
-
   (junction (at 60.96 121.92) (diameter 0) (color 0 0 0 0)
     (uuid 020b7e1f-8bb0-4882-91d4-7894bf18db84)
   )
@@ -2062,7 +2061,7 @@
     (uuid 00000000-0000-0000-0000-000061188033)
     (property "Reference" "CR901" (id 0) (at 68.58 101.6 0))
     (property "Value" "BAT54" (id 1) (at 68.58 104.14 0))
-    (property "Footprint" "SOT23" (id 2) (at 68.58 106.68 90)
+    (property "Footprint" "mods:SOT23-3-SAR" (id 2) (at 68.58 106.68 90)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 68.58 106.68 90)
@@ -2673,7 +2672,7 @@
     (uuid 00000000-0000-0000-0000-00006126ab92)
     (property "Reference" "CR902" (id 0) (at 66.04 111.76 90))
     (property "Value" "BAT54" (id 1) (at 66.04 114.3 90))
-    (property "Footprint" "SOT23" (id 2) (at 60.96 113.03 90)
+    (property "Footprint" "mods:SOT23-3-SAR" (id 2) (at 60.96 113.03 90)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 60.96 113.03 90)
