@@ -67,7 +67,7 @@ Item,Part Number,Qty,Reference(s),Title/Description,Value on Schematic,Manufactu
 66,800235-068,3,"R808,R2109,R2122","RES,0805,6.8,1%",6.8,Open Market,N/A
 67,800235-300,3,"R2110,R2123,R2312","RES,0805,30,1%",30,Open Market,N/A
 68,800235-330,4,"R2111,R2112,R2303,R2304","RES,0805,33,1%",33,Open Market,N/A
-69,800235-331,1,R2309,Unknown,330,Unknown,Unknown
+69,800235-331,1,R2309,"RES,0805,330,1%",330,Open Market,N/A
 70,800235-220,1,R2311,"RES,0805,22,1%",22,Open Market,N/A
 71,800235-822,1,R803,"RES,0805,8.2K,1%",8.2K,Open Market,N/A
 72,800235-152,1,R807,"RES,0805,1.5K,1%",1.5K,Open Market,N/A
