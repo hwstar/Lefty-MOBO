@@ -921,7 +921,7 @@
       (reference "C1602") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000060fcca0a/00000000-0000-0000-0000-000060fcca53/00000000-0000-0000-0000-000061001560/00000000-0000-0000-0000-000061d4cb11/00000000-0000-0000-0000-00006102bb76/00000000-0000-0000-0000-000061020af6"
-      (reference "C1603") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C1603") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000060fcca0a/00000000-0000-0000-0000-000060fcca53/00000000-0000-0000-0000-000061001560/00000000-0000-0000-0000-000061d4cb11/00000000-0000-0000-0000-000060fd81b1/00000000-0000-0000-0000-0000610db00e"
       (reference "C1701") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
