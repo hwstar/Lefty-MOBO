@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (rev "X1")
+    (rev "B")
   )
 
   (lib_symbols
@@ -115,7 +115,7 @@
     (uuid 90912a07-8f0d-457a-b78a-1c112c8f2052)
   )
 
-  (hierarchical_label "P13V8_TX" (shape passive) (at 30.48 50.8 180)
+  (hierarchical_label "P8V0_TX" (shape passive) (at 30.48 50.8 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 05c4a04b-0442-4e18-9747-3d9fc4a562fe)
   )
@@ -135,7 +135,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7a332b0c-4cba-438b-85c1-9efe2690fb62)
   )
-  (hierarchical_label "P13V8_RX" (shape passive) (at 30.48 45.72 180)
+  (hierarchical_label "P8V0_RX" (shape passive) (at 30.48 45.72 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid cec22d4a-eda3-4d50-8609-c3a123c120be)
   )
@@ -182,11 +182,11 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5da0928a-9939-439c-bcbe-74de097058a8)
     )
-    (pin "P13V8_L2R" passive (at 173.99 45.72 180)
+    (pin "P8V0_L2R" passive (at 173.99 45.72 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid bca99a8e-598f-436a-9158-7a050d1f7ca4)
     )
-    (pin "P13V8_R2L" passive (at 173.99 50.8 180)
+    (pin "P8V0_R2L" passive (at 173.99 50.8 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid f0f3907b-44e3-4106-9f24-d8ce836b6bb0)
     )
@@ -242,7 +242,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid b285d77c-3eef-4763-b6e4-d7759b529dfd)
     )
-    (pin "P13V8_R2L" passive (at 76.2 77.47 180)
+    (pin "P8V0_R2L" passive (at 76.2 77.47 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 856c0384-2dfc-47d2-a66c-a145c3149f14)
     )

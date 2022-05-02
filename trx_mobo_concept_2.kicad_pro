@@ -48,7 +48,13 @@
           "min_clearance": 0.19999999999999998
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         "silk_over_copper|125000000|60000000|aed766cc-c8d5-45cf-84bc-1c29216ccceb|d2456fb5-2b99-45e1-9d17-eb9a485a3bd3",
         "silk_over_copper|125000000|60500000|09dffe2f-119c-4acf-b279-934de0a0dda7|d2456fb5-2b99-45e1-9d17-eb9a485a3bd3",
@@ -73,6 +79,7 @@
         "silk_over_copper|208600000|89889000|ce891766-6938-4d56-b79d-ae359292360c|5f6b5c30-781a-4047-9227-2733b7cc980c",
         "silk_over_copper|217111000|121400000|b06fdf55-9b05-48ab-b20a-f43456e8f5ec|ec08b450-01ec-4ec7-a2c0-7827a3b475fe",
         "silk_over_copper|217111000|122350000|b06fdf55-9b05-48ab-b20a-f43456e8f5ec|241ce13e-c8b1-478b-8ebc-cce2a81df2bb",
+        "silk_over_copper|217111000|123300000|8cd71906-6c94-43a5-95be-56c5e827cc5a|f5de6e7d-ce53-4289-8300-a44420191042",
         "silk_over_copper|217111000|123300000|b06fdf55-9b05-48ab-b20a-f43456e8f5ec|64b46f63-6e09-4261-974e-314eb1064777",
         "silk_over_copper|218889000|121400000|708692df-f1ed-4dfd-8869-70b93a8004bc|64e4ea00-3ecf-4df6-ac5f-77cf4ced88fb",
         "silk_over_copper|218889000|122350000|708692df-f1ed-4dfd-8869-70b93a8004bc|a818dbd6-8d05-4bed-8e76-065b136c4a97",
@@ -166,7 +173,12 @@
         0.0,
         0.2
       ],
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -425,9 +437,9 @@
           "/top/P5V0",
           "/top/RX_AUDIO_SPEAKER",
           "/top/connectors/~{TX}",
+          "/top/radio/rf_45r1_mic_amp_tune_osc/if_45r1_mic_amp_tune_osc/P8V0_RX",
           "GND",
           "Net-(C1205-Pad1)",
-          "Net-(C309-Pad1)",
           "P3V3"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -536,10 +548,7 @@
           "/top/radio/xtal_filter/Y703_RF",
           "/top/radio/xtal_filter/Y704_RF",
           "/top/radio/xtal_filter/Y705_RF",
-          "/top/radio/xtal_filter/Y706_RF",
-          "Net-(C1804-Pad2)",
-          "Net-(C2304-Pad2)",
-          "Net-(C802-Pad1)"
+          "/top/radio/xtal_filter/Y706_RF"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
