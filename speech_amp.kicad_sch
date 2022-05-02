@@ -2766,7 +2766,7 @@
     (in_bom yes) (on_board yes)
     (uuid 3717ee31-2716-4f04-997a-07c75d73bd08)
     (property "Reference" "R912" (id 0) (at 48.26 80.01 90))
-    (property "Value" "DNI" (id 1) (at 53.34 80.01 90))
+    (property "Value" "" (id 1) (at 53.34 80.01 90))
     (property "Footprint" "" (id 2) (at 50.8 77.47 0)
       (effects (font (size 1.524 1.524)) hide)
     )
